@@ -20,7 +20,7 @@ requisitos
 
 clonar repositorio en workspace (catkin_ws/src)
 
-	gir clone https://github.com/EPVelasco/realsense-ros.git -b ros1-legacy
+	git clone https://github.com/EPVelasco/realsense-ros.git -b ros1-legacy
 	cd.. 
 	catkin_make --only-pkg-with-deps realsense-ros
 	
